@@ -1,0 +1,60 @@
+h1 {
+  font-size: 55px; }
+  @media only screen and (max-width: 767px) {
+    h1 {
+      font-size: 40px; } }
+
+p {
+  color: black; }
+
+h1 {
+  font-size: 55px; }
+  @media only screen and (max-width: 767px) {
+    h1 {
+      font-size: 40px; } }
+
+p {
+  color: black; }
+
+.container-fluid {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin: 100px;
+  font-size: 55px;
+  font-style: italic;
+  font-family: tahoma; }
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+footer{
+  background: #202020;
+  color: white;
+  width: 100%;
+}
+.container-footer-all{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+.container-footer{
+  display: flex;
+}
+.column1{
+  width:100% ;
+  max-width: 600px;
+}
+.column1 h2{
+  font-size: 22px;
+}
+.column1 p{
+  font-size: 14px;
+  color: white;
+}
+.lista-de-juegos{
+  flex-direction: column-reverse;
+}
